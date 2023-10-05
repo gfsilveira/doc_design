@@ -7,12 +7,14 @@
 # Editando scripts para publicação
 1.1.1
 
-# Versionamento semântico
+# Editando scripts para publicação
+1.1.1
+
+# Gerando DOI
+2.1.1
 
 – 0 (Major) – controle de compatibilidade.
 
 – 0 (Minor) – controle de funcionalidade.
 
 – 0 (Patch) – controle de correção de bugs.
-
-– Pré-release – versão candidata.
