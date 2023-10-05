@@ -1,0 +1,267 @@
+.
+├── .git
+│   ├── COMMIT_EDITMSG
+│   ├── HEAD
+│   ├── branches
+│   ├── config
+│   ├── description
+│   ├── hooks
+│   │   ├── applypatch-msg.sample
+│   │   ├── commit-msg.sample
+│   │   ├── fsmonitor-watchman.sample
+│   │   ├── post-update.sample
+│   │   ├── pre-applypatch.sample
+│   │   ├── pre-commit.sample
+│   │   ├── pre-merge-commit.sample
+│   │   ├── pre-push.sample
+│   │   ├── pre-rebase.sample
+│   │   ├── pre-receive.sample
+│   │   ├── prepare-commit-msg.sample
+│   │   ├── push-to-checkout.sample
+│   │   └── update.sample
+│   ├── index
+│   ├── info
+│   │   └── exclude
+│   ├── logs
+│   │   ├── HEAD
+│   │   └── refs
+│   │       ├── heads
+│   │       │   └── main
+│   │       └── remotes
+│   │           └── origin
+│   │               ├── HEAD
+│   │               └── main
+│   ├── objects
+│   │   ├── 1f
+│   │   │   └── 84b4328555a69960bfccab5785166f9ed2cac0
+│   │   ├── 2a
+│   │   │   └── e531ac3aecc0664b495c91e2561c630bd56d65
+│   │   ├── 2b
+│   │   │   └── 1de7c2c7c0f23a3c14abcea88821af071dc5d2
+│   │   ├── 46
+│   │   │   └── 21af33af04145453cc5b6365750fa89c0e9c2f
+│   │   ├── 5c
+│   │   │   └── aa3c38071f161a5309a6736873f1105c819253
+│   │   ├── e9
+│   │   │   └── df0b5f9b81a631aa4010956b6acb6b4d50c8da
+│   │   ├── info
+│   │   └── pack
+│   │       ├── pack-744b22010e2c43938df62eea925730ad9b2b0fcc.idx
+│   │       └── pack-744b22010e2c43938df62eea925730ad9b2b0fcc.pack
+│   ├── packed-refs
+│   └── refs
+│       ├── heads
+│       │   └── main
+│       ├── remotes
+│       │   └── origin
+│       │       ├── HEAD
+│       │       └── main
+│       └── tags
+├── .gitignore
+├── LICENSE
+├── README.md
+├── VERSION
+├── commit_git.sh
+├── config
+│   ├── config.sh
+│   ├── install-bashtop.sh
+│   ├── install-docker.sh
+│   ├── install-fdfind.sh
+│   ├── install-micro.sh
+│   ├── install-tree.sh
+│   └── install.sh
+├── docker
+│   ├── JupyterLab-configs
+│   │   ├── plugin.jupyterlab-settings
+│   │   ├── themes.jupyterlab-settings
+│   │   └── tracker.jupyterlab-settings
+│   ├── docker-compose-app.yml
+│   ├── python.Dockerfile
+│   └── python_req.txt
+├── estrutura_diretorio.txt
+└── script
+    ├── .ipynb_checkpoints
+    │   ├── 01-analysis_Graficas_2023-02-28-checkpoint.ipynb
+    │   ├── 02_analysis_estatística_Qualitativa_2023-02-28-checkpoint.ipynb
+    │   └── 03_analysis_estatística_Quantitativa_2023-02-28-checkpoint.ipynb
+    ├── 01-analysis_Graficas_2023-02-28.ipynb
+    ├── 02_analysis_estatística_Qualitativa_2023-02-28.ipynb
+    ├── 03_analysis_estatística_Quantitativa_2023-02-28.ipynb
+    ├── data
+    │   ├── dados_completos.csv
+    │   ├── df_descricao_compila.csv
+    │   └── df_fonte_compila.csv
+    ├── figure
+    │   ├── .ipynb_checkpoints
+    │   │   └── df_statistica_perguntas_outro-checkpoint.csv
+    │   ├── 00-Geral
+    │   │   ├── 01_-2020-12-12.png
+    │   │   ├── 02_-2020-12-12.png
+    │   │   ├── 03_-2020-12-12.png
+    │   │   ├── 04_-2020-12-12.png
+    │   │   ├── 05_-2020-12-12.png
+    │   │   ├── 06_-2020-12-12.png
+    │   │   ├── 07_-2020-12-12.png
+    │   │   ├── 08-2020-12-12.png
+    │   │   └── 09-2020-12-12.png
+    │   ├── 01-Reovírus
+    │   │   ├── 01_Reovírus Aviário-2020-12-12.png
+    │   │   ├── 02_Reovírus Aviário-2020-12-12.png
+    │   │   ├── 03_Reovírus Aviário-2020-12-12.png
+    │   │   ├── 04_Reovírus Aviário-2020-12-12.png
+    │   │   ├── 05_Reovírus Aviário-2020-12-12.png
+    │   │   ├── 06_Reovírus Aviário-2020-12-12.png
+    │   │   ├── 07_Reovírus Aviário-2020-12-12.png
+    │   │   ├── 08_Reovírus Aviário-2020-12-12.png
+    │   │   └── 09_Reovírus Aviário-2020-12-12.png
+    │   ├── 02-C Tronco
+    │   │   ├── 01_Células Tronco-2020-12-12.png
+    │   │   ├── 02_Células Tronco-2020-12-12.png
+    │   │   ├── 03_Células Tronco-2020-12-12.png
+    │   │   ├── 04_Células Tronco-2020-12-12.png
+    │   │   ├── 05_Células Tronco-2020-12-12.png
+    │   │   ├── 06_Células Tronco-2020-12-12.png
+    │   │   ├── 07_Células Tronco-2020-12-12.png
+    │   │   ├── 08_Células Tronco-2020-12-12.png
+    │   │   └── 09_Células Tronco-2020-12-12.png
+    │   ├── 03-T gondii
+    │   │   ├── 01_T. gondii-2020-12-12.png
+    │   │   ├── 02_T. gondii-2020-12-12.png
+    │   │   ├── 03_T. gondii-2020-12-12.png
+    │   │   ├── 04_T. gondii-2020-12-12.png
+    │   │   ├── 05_T. gondii-2020-12-12.png
+    │   │   ├── 06_T. gondii-2020-12-12.png
+    │   │   ├── 07_T. gondii-2020-12-12.png
+    │   │   ├── 08_T. gondii-2020-12-12.png
+    │   │   └── 09_T. gondii-2020-12-12.png
+    │   ├── 04-Citocinas
+    │   │   ├── 01_Citocinas-2020-12-12.png
+    │   │   ├── 02_Citocinas-2020-12-12.png
+    │   │   ├── 03_Citocinas-2020-12-12.png
+    │   │   ├── 04_Citocinas-2020-12-12.png
+    │   │   ├── 05_Citocinas-2020-12-12.png
+    │   │   ├── 06_Citocinas-2020-12-12.png
+    │   │   ├── 07_Citocinas-2020-12-12.png
+    │   │   ├── 08_Citocinas-2020-12-12.png
+    │   │   └── 09_Citocinas-2020-12-12.png
+    │   ├── 05-F Amarela
+    │   │   ├── 01_Febre Amarela-2020-12-12.png
+    │   │   ├── 02_Febre Amarela-2020-12-12.png
+    │   │   ├── 03_Febre Amarela-2020-12-12.png
+    │   │   ├── 04_Febre Amarela-2020-12-12.png
+    │   │   ├── 05_Febre Amarela-2020-12-12.png
+    │   │   ├── 06_Febre Amarela-2020-12-12.png
+    │   │   ├── 07_Febre Amarela-2020-12-12.png
+    │   │   ├── 08_Febre Amarela-2020-12-12.png
+    │   │   └── 09_Febre Amarela-2020-12-12.png
+    │   ├── 06-Linfócitos
+    │   │   ├── 01_Linfócitos-2020-12-12.png
+    │   │   ├── 02_Linfócitos-2020-12-12.png
+    │   │   ├── 03_Linfócitos-2020-12-12.png
+    │   │   ├── 04_Linfócitos-2020-12-12.png
+    │   │   ├── 05_Linfócitos-2020-12-12.png
+    │   │   ├── 06_Linfócitos-2020-12-12.png
+    │   │   ├── 07_Linfócitos-2020-12-12.png
+    │   │   ├── 08_Linfócitos-2020-12-12.png
+    │   │   └── 09_Linfócitos-2020-12-12.png
+    │   ├── 07-Grau
+    │   │   ├── 00_Grau-2020-12-13.png
+    │   │   ├── 01_Lato Sensu-2020-12-13.png
+    │   │   ├── 01_Stricto Sensu-2020-12-13.png
+    │   │   ├── 02_Lato Sensu-2020-12-13.png
+    │   │   ├── 02_Stricto Sensu-2020-12-13.png
+    │   │   ├── 03_Lato Sensu-2020-12-13.png
+    │   │   ├── 03_Stricto Sensu-2020-12-13.png
+    │   │   ├── 04_Lato Sensu-2020-12-13.png
+    │   │   ├── 04_Stricto Sensu-2020-12-13.png
+    │   │   ├── 05_Lato Sensu-2020-12-13.png
+    │   │   ├── 05_Stricto Sensu-2020-12-13.png
+    │   │   ├── 06_Lato Sensu-2020-12-13.png
+    │   │   ├── 06_Stricto Sensu-2020-12-13.png
+    │   │   ├── 07_Lato Sensu-2020-12-13.png
+    │   │   └── 07_Stricto Sensu-2020-12-13.png
+    │   ├── 08-Área
+    │   │   ├── 00_Área-2020-12-13.png
+    │   │   ├── 01_Biológicas-2020-12-13.png
+    │   │   ├── 01_Exatas_Humanas-2020-12-13.png
+    │   │   ├── 02_Biológicas-2020-12-13.png
+    │   │   ├── 02_Exatas_Humanas-2020-12-13.png
+    │   │   ├── 03_Biológicas-2020-12-13.png
+    │   │   ├── 03_Exatas_Humanas-2020-12-13.png
+    │   │   ├── 04_Biológicas-2020-12-13.png
+    │   │   ├── 04_Exatas_Humanas-2020-12-13.png
+    │   │   ├── 05_Biológicas-2020-12-13.png
+    │   │   ├── 05_Exatas_Humanas-2020-12-13.png
+    │   │   ├── 06_Biológicas-2020-12-13.png
+    │   │   ├── 06_Exatas_Humanas-2020-12-13.png
+    │   │   ├── 07_Biológicas-2020-12-13.png
+    │   │   └── 07_Exatas_Humanas-2020-12-13.png
+    │   ├── 09-Estatística
+    │   │   ├── 01_NotasPesquisador-2022-2-19.png
+    │   │   ├── 02_NotasDesigner-2022-2-19.png
+    │   │   ├── Análise_qualitativa.xlsx
+    │   │   ├── Perguntas.png
+    │   │   ├── Qualitativo
+    │   │   │   ├── df_descricao_compila.csv
+    │   │   │   ├── df_descricao_compila_bio.csv
+    │   │   │   ├── df_descricao_compila_doc.csv
+    │   │   │   ├── df_descricao_compila_exatas.csv
+    │   │   │   ├── df_descricao_compila_gradu.csv
+    │   │   │   ├── df_descricao_compila_humanas.csv
+    │   │   │   ├── df_descricao_compila_mestrado.csv
+    │   │   │   ├── df_descricao_compila_posGradu.csv
+    │   │   │   ├── df_fonte_compila.csv
+    │   │   │   ├── df_fonte_compila_bio.csv
+    │   │   │   ├── df_fonte_compila_doc.csv
+    │   │   │   ├── df_fonte_compila_exatas.csv
+    │   │   │   ├── df_fonte_compila_gradua.csv
+    │   │   │   ├── df_fonte_compila_humanas.csv
+    │   │   │   ├── df_fonte_compila_mestrado.csv
+    │   │   │   └── df_fonte_compila_posGradua.csv
+    │   │   └── Quantitativo
+    │   │       ├── df_descricao_compila.csv
+    │   │       ├── df_fonte_compila.csv
+    │   │       ├── df_statistica_perguntas.csv
+    │   │       ├── df_statistica_perguntas_T.csv
+    │   │       ├── df_statistica_perguntas_biologicas.csv
+    │   │       ├── df_statistica_perguntas_doutorado.csv
+    │   │       ├── df_statistica_perguntas_exatas.csv
+    │   │       ├── df_statistica_perguntas_gradua.csv
+    │   │       ├── df_statistica_perguntas_humanas.csv
+    │   │       ├── df_statistica_perguntas_mestrado.csv
+    │   │       ├── df_statistica_perguntas_posDoc.csv
+    │   │       ├── df_statistica_total.csv
+    │   │       └── n_de_participações.csv
+    │   ├── df_descricao_compila.csv
+    │   ├── df_fonte_compila.csv
+    │   ├── df_statistica_perguntas.csv
+    │   ├── df_statistica_perguntas_outro.csv
+    │   ├── df_statistica_total.csv
+    │   ├── freq_ab_des.csv
+    │   ├── freq_ab_des_qnt.csv
+    │   ├── freq_ab_pesq.csv
+    │   ├── freq_ab_pesq_qnt.csv
+    │   ├── freq_rel_des.csv
+    │   ├── freq_rel_des_qnt.csv
+    │   ├── freq_rel_pesq.csv
+    │   ├── freq_rel_pesq_qnt.csv
+    │   └── frequênciasAbsolutas.xlsx
+    └── old
+        ├── .ipynb_checkpoints
+        │   ├── 01-connect-checkpoint.ipynb
+        │   ├── 02-analysis-checkpoint.ipynb
+        │   ├── 02_analysis_2022_02_19-checkpoint.ipynb
+        │   ├── 03_analysis_estatística_Qualitativa_2023-02-28-checkpoint.ipynb
+        │   └── 04_analysis_imagens_2022_02_22-checkpoint.ipynb
+        ├── 01-connect.ipynb
+        ├── 02-analysis.ipynb
+        ├── 02_analysis_2022_02_19.ipynb
+        ├── 02_analysis_2022_02_20.ipynb
+        ├── 02_analysis_2022_02_21.ipynb
+        ├── 03_analysis_estatística_Qualitativa_2023-02-28.ipynb
+        ├── 04_Fatorial_analysis_2022_03_28.ipynb
+        ├── 04_Wilcoxon_analysis_2022_03_28.ipynb
+        ├── 04_analysis_imagens_2022_02_22.ipynb
+        └── Non_parametric_Confidence_Interval.ipynb
+
+45 directories, 219 files

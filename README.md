@@ -1,0 +1,10 @@
+# Ttile:
+•	Scientific Design: evaluation of the contribution of design in the interpretation of scientific images
+
+# Abstract:
+The present work seeks to quantify the impact on the transmission of information contained in scientific schemes, given the application of design concepts. In this context, 12 images, 6 of which were worked on by design based on 6 images developed by researchers was presented to public who answered a quantitative questionnaire regarding image’s information. The target audience, 472 participants, was selected according to their academic background as well as their training area. The data show that the average of the researchers' images received a score of 3.335 (3.269-3.401 in the 95%CI) and the images worked by the designer 4.147 (4.095-4.199 in the 95%CI). Additionally, fewer participants judged that the designer's images needed additional description and more participants stated that they experimented a new data source. These differences would be influenced by the area and academic background. The present research brings new quantitative information regarding the ability to enhance the disseminate scientific findings, given the application of design concepts.
+
+# Teaser:
+Is it possible to improve the dissemination of the knowledge contained in scientific information? To answer this question, in our article, 6 scientific images were worked with design concepts. These were then presented to an audience of 472 participants that answered quantitative questions about them. The participants of the research reported that the images worked by the design had an important gain in the transmission of information, when compared with the original images, worked only by the researchers. Additionally, fewer participants judged that the designer's images needed additional description and more participants stated that they experimented a new data source. This shows that it is possible to improve the transmission of information in scientific dissemination, using design concepts.
+
+<img src="./img/graphic-abbstract.jpg" />

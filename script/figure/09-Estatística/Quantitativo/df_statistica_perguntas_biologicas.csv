@@ -1,0 +1,9 @@
+Origem,Designer,Designer,Designer,Pesquisador,Pesquisador,Pesquisador,Designer/Pesquisador
+Valor,Média,IC infer (95%),IC super (95%),Média,IC infer (95%),IC super (95%),p-value
+Dintinguíveis,4.09,3.927,4.253,3.419,3.23,3.608,<0.001
+Proeminentes,4.039,3.88,4.199,2.989,2.804,3.174,<0.001
+Eficiente,3.86,3.694,4.025,3.14,2.952,3.327,<0.001
+Útil,4.725,4.617,4.833,4.464,4.301,4.626,0.113
+Estética,4.298,4.156,4.44,2.626,2.449,2.802,<0.001
+Compreensão,3.966,3.8,4.133,3.134,2.932,3.336,<0.001
+Interesse,4.084,3.931,4.237,2.81,2.605,3.015,<0.001
